@@ -2,9 +2,7 @@ import { ShoppingCartIcon } from 'lucide-react'
 
 export type ProductType = {
   name: string
-  image: {
-    path: string
-  }
+  image: string
   price: string
 }
 
@@ -14,7 +12,6 @@ type PropType = {
 }
 
 export function ProductGrid({ title = 'Products', products }: PropType) {
-  console.log('products: ', products)
   return (
     <section className="bg-white py-8">
       <div className="container mx-auto flex items-center flex-wrap pt-4 pb-12">
@@ -71,7 +68,7 @@ export function ProductGrid({ title = 'Products', products }: PropType) {
                 <img
                   alt=""
                   className="hover:grow hover:shadow-lg"
-                  src={`http://20.198.168.188:8080/:best/storage/uploads/${product.image.path}`}
+                  src={product.image}
                 />
                 <div className="pt-3 flex items-center justify-between">
                   <p className="">{product.name}</p>
