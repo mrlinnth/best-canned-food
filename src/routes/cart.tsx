@@ -17,7 +17,7 @@ const cartData = [
     price: 2400,
     quantity: 1,
     image:
-      'http://20.198.168.188:8080/:best/storage/uploads//2025/10/03/best-food-3_uid_68df44b02ee88.jpg',
+      'https://bestpremiumcannedfood.com/wp-content/uploads/2022/01/019-900x900.jpg',
   },
   {
     id: '2',
@@ -25,7 +25,7 @@ const cartData = [
     price: 3300,
     quantity: 1,
     image:
-      'http://20.198.168.188:8080/:best/storage/uploads//2025/10/03/best-food-1_uid_68df44b029847.jpg',
+      'https://bestpremiumcannedfood.com/wp-content/uploads/2022/01/039-900x900.jpg',
   },
 ]
 

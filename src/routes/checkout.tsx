@@ -216,7 +216,7 @@ function Checkout() {
               <CardContent>
                 <div className="flex space-x-4">
                   <img
-                    src="http://20.198.168.188:8080/:best/storage/uploads//2025/10/03/best-food-3_uid_68df44b02ee88.jpg"
+                    src="https://bestpremiumcannedfood.com/wp-content/uploads/2022/01/019-900x900.jpg"
                     alt="ချဥ်ပေါင်ကြော်"
                     className="h-16 w-20 rounded-lg object-cover"
                   />
